@@ -7,7 +7,8 @@
         if (allnumeric(unumber)) {
             if (ValidateEmail(uemail)) {
 
-                alert("Enquiry successful")
+                alert("Enquiry successful");
+                registration.Clear();
 
             }
         }
