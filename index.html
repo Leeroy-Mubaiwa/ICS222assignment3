@@ -5,37 +5,42 @@
     <meta charset="utf-8">
     <title>Pindah Enquiries</title>
     <meta name="keywords" content="Pindah, Leeroy Mubaiwa, H1190156J" />
-    <meta name="description"
-        content="ICS Assignment 3 - Enquiries Form" />
+    <meta name="description" content="ICS Assignment 3 - Enquiries Form" />
     <link rel='stylesheet' href='css/StyleSheet1.css' type='text/css' />
     <script src="js/JavaScript.js"></script>
 </head>
 
 <body onload="document.registration.username.focus();">
-    <h1>Registration Form</h1>
-    <p> Use tab keys to move from one input field to the next.<p/>
-    <section class="Section">
-    <form name='registration' onSubmit="return formValidation();">
-        <ul>
+    <div class="pane">
 
-            <li><label for="username">Name:</label></li>
-            <li><input type="text" name="username" size="50" /></li>
-            <li><label for="number">Number:</label></li>
-            <li><input type="text" name="number" /></li>
-            <li><label for="email">Email:</label></li>
-            <li><input type="text" name="email" size="50" /></li>
+    </div>
+    <div class="center">
+        <h1>Enter Details</h1>
+        <p> Use tab keys to move from one input field to the next.
+            <p />
+        <form name='registration' onSubmit="return formValidation();">
+            <ul>
 
-            <li><label for="enquiry">Enquiry:</label></li>
-            <li><textarea name="enquiry" id="desc"></textarea></li>
-           
-            <li><label>Language:</label></li>
-            <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
-            <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
-            
-            <li><input type="submit" name="submit" value="Submit" /></li>
-        </ul>
-    </form>
-</section>
+                <li><label for="username">Name:</label></li>
+                <li><input type="text" name="username" size="50" class = "textBox"/></li>
+                <li><label for="number">Number:</label></li>
+                <li><input type="text" name="number"  size="50" class="textBox" /></li>
+                <li><label for="email">Email:</label></li>
+                <li><input type="text" name="email" size="50"  class="textBox"/></li>
+
+
+
+                <li><label for="enquiry">Enquiry:</label></li>
+                <li><textarea name="enquiry" id="desc"  class="textBox" ></textarea></li>
+
+
+
+
+
+                <li><input type="submit" name="submit" value="Submit" class="button"/></li>
+            </ul>
+        </form>
+    </div>
 </body>
 
 </html>
