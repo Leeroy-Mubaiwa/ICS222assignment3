@@ -1,4 +1,4 @@
-﻿﻿h1 {
+﻿h1 {
     margin: auto;
 
 }
@@ -9,10 +9,18 @@ h1,p,input{
 
 body {
     text-align: center;
-    background-color:     whitesmoke;
-    
+   background-size: 100%;
+    background-image: url("imgB.jpg");
+    background-color:     mediumseagreen;
 }
-
+h1{
+    color: mediumseagreen;
+}
+img{
+    
+    width: 100px;
+    aspect-ratio:initial;
+}
 .button{
   
     
@@ -47,14 +55,17 @@ textarea{
 }
 .center {
   
-    display: block;
+        display: block;
         margin: auto;
         width: 50%;
         height: max-content;
-        border-radius: 0;
+       
         background-color: ghostwhite;
         padding: 10px;
         display: inline-block;
+        border-width: 1px;
+        border-color: mediumseagreen;
+        border-radius: 0;
 }
 
 form li {
@@ -95,4 +106,7 @@ input:hover{
 }
 input::selection{
     border-color: mediumseagreen;
+}
+.Spacing{
+    height: 40px;
 }
