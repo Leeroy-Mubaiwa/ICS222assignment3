@@ -1,71 +1,73 @@
 ﻿h1 {
     margin: auto;
-
 }
 
-h1,p,input{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+h1,
+p,
+input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
     text-align: center;
-   background-size: 100%;
+    background-size: 100%;
     background-image: url("imgB.jpg");
-    background-color:     mediumseagreen;
+    background-color: mediumseagreen;
 }
-h1{
+
+h1 {
     color: mediumseagreen;
 }
-img{
-    
+
+img {
     width: 100px;
-    aspect-ratio:initial;
+    aspect-ratio: initial;
 }
-.button{
-  
-    
-   
-    background-color :mediumseagreen;;
+
+.button {
+    background-color: mediumseagreen;
+    ;
     width: 30%;
     height: 30px;
     border-radius: 0px;
     border-width: 0px;
-   color: #ffffff;
+    color: #ffffff;
     margin: auto;
 }
-.textBox{
+
+.textBox {
     background-color: ghostwhite;
-   border-bottom-width: 1px;
-   border-right-width: 1px ;
-   border-left-width: 1px ;
-   border-top-width: 1px ;
-   border-style: dotted;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-style: dotted;
     border-color: lightgrey;
     height: 30px;
     width: 500px;
-
 }
-.pane{
+
+.pane {
     height: 80px;
 }
-textarea{
+
+textarea {
     min-height: 200px;
     max-height: 200px;
     max-width: 500px;
 }
+
 .center {
-  
-        display: block;
-        margin: auto;
-        width: 50%;
-        height: max-content;
-       
-        background-color: ghostwhite;
-        padding: 10px;
-        display: inline-block;
-        border-width: 1px;
-        border-color: mediumseagreen;
-        border-radius: 0;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: max-content;
+    background-color: ghostwhite;
+    padding: 10px;
+    display: inline-block;
+    border-width: 1px;
+    border-color: mediumseagreen;
+    border-radius: 0;
 }
 
 form li {
@@ -79,11 +81,13 @@ form ul li label {
     width: 100px;
     text-align: right;
     margin-right: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
 }
 
-form ul li input, select, span {
+form ul li input,
+select,
+span {
     float: left;
     margin-bottom: 10px;
 }
@@ -94,19 +98,32 @@ form textarea {
     height: 150px;
 }
 
-
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
 
 p {
     margin-left: 70px;
     font-weight: bold;
-    margin:auto;
+    margin: auto;
 }
-input:hover{
+
+input:hover {
     border-color: mediumseagreen;
 }
-input::selection{
+
+input::selection {
     border-color: mediumseagreen;
 }
-.Spacing{
+
+.Spacing {
     height: 40px;
+}
+
+input {
+    width: 80%;
 }
